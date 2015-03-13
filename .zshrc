@@ -56,3 +56,8 @@ fi
 
 alias ls='ls --color=auto'
 export EDITOR='vim'
+
+# Better looking prompt
+autoload -U promptinit
+promptinit
+prompt suse
