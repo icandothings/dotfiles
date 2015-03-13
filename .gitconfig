@@ -1,0 +1,10 @@
+[user]
+  email = icandothings@gmail.com
+  name = icandothings
+[push]
+  default = simple
+[http]
+[alias]
+  lg = log --all --color --graph --pretty=format:'%Cred%h%Creset-%Creset%s %Creset%C(yellow)%d%Cgreen(%cr)%C(bold blue)<%aE>' --abbrev-commit
+[core]
+  editor = vim
