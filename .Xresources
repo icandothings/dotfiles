@@ -12,6 +12,8 @@ URxvt.scrollbar_right: true
 
 
 !! Clipboard
+! Need perl extensions
+URxvt.perl-ext-common:default,clipboard
 ! update clipboard whenever primary gets updated
 URxvt.clipboard.autocopy: true
 ! Alt+c copies primary selection to clipboard
@@ -21,3 +23,5 @@ URxvt.keysym.M-v: perl:clipboard:paste
 ! Ctrl+Alt+v pastes from clipboard but escapes special characters
 !       so, 'blah blah blah' becomes 'blah\ blah\ blah'
 URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+!URxvt.copyCommand:   xsel -ib
+!URxvt.pasteCommand:  xsel -ob
