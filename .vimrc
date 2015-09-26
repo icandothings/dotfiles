@@ -21,9 +21,9 @@ set smartindent
 
 " Tabbing
 set smarttab                          " Tab at start shifts by shiftwidth, and <BS> at end deletes by shiftwidth
-set shiftwidth=2                      " Shift by two spaces
-set softtabstop=2                     " Move by two spaces when editing
-set tabstop=2                         " Tab is two spaces
+set shiftwidth=4                      " Shift by four spaces
+set softtabstop=4                     " Move by four spaces when editing
+set tabstop=4                         " Tab is four spaces
 set expandtab                         " Replace tabs with spaces
 
 " Swap files go in tmp

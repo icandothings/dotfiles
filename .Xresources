@@ -1,3 +1,23 @@
+
+! Dark Background
 URxvt.background: #000000
+! White Text
 URxvt.foreground: #FFFFFF
-URxvt.scrollright: true
+
+! Scroll a page at a time when recieving large updates
+URxvt.jumpScroll: true
+
+! Move scrollbar to the right side of the window
+URxvt.scrollbar_right: true
+
+
+!! Clipboard
+! update clipboard whenever primary gets updated
+URxvt.clipboard.autocopy: true
+! Alt+c copies primary selection to clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+! Alt+v pastes from clipboard
+URxvt.keysym.M-v: perl:clipboard:paste
+! Ctrl+Alt+v pastes from clipboard but escapes special characters
+!       so, 'blah blah blah' becomes 'blah\ blah\ blah'
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
