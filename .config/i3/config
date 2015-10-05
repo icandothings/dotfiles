@@ -90,7 +90,7 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # lock the screen
-bindsym $mod+Ctrl+l exec i3lock -c 000000 -e
+bindsym $mod+Ctrl+l exec i3lock -c 000000 -e -d
 
 # switch to workspace
 bindsym $mod+1 workspace 1
