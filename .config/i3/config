@@ -160,3 +160,4 @@ bar {
 #set background color
 exec xsetroot -solid '#111111'
 exec ~/bin/setup_screen.sh
+exec ~/bin/proxy.sh
